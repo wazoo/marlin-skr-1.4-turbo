@@ -935,7 +935,8 @@
  * Specify a Probe position as { X, Y, Z }
  */
 // #define NOZZLE_TO_PROBE_OFFSET { -40, -12, 0 }
-#define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 }
+// The directions for this are here: https://marlinfw.org/docs/gcode/M851.html
+#define NOZZLE_TO_PROBE_OFFSET { -43, -5, -5.8 }
 
 // Certain types of probes need to stay away from edges
 #define MIN_PROBE_EDGE 50
