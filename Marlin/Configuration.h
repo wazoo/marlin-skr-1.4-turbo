@@ -476,9 +476,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Ultimaker
-  #define DEFAULT_Kp 22.2
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114
+  // #define DEFAULT_Kp 22.2
+  // #define DEFAULT_Ki 1.08
+  // #define DEFAULT_Kd 114
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -490,6 +490,11 @@
   //#define DEFAULT_Ki 2.25
   //#define DEFAULT_Kd 440
 
+  // e3d v6 auto-tune PID on 6/5/20 using: M303 E0 S210 C8
+  #define DEFAULT_Kp 24.26
+  #define DEFAULT_Ki 2.03
+  #define DEFAULT_Kd 72.60
+  
 #endif // PIDTEMP
 
 //===========================================================================
